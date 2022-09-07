@@ -1,0 +1,41 @@
+CREATE TABLE account (   
+User_Id int,   
+account_number Int(30),   
+account_type varchar(30),   
+interest_rate float(50), 
+Foreign Key User_Id References Nominee(User_Id)
+)
+
+insert into account values ('101','BKID24001', 'Savings', '12')
+insert into account values ('102','BKID24002', 'Current', '8')
+insert into account values ('201','BKID24003', 'Current', '10')
+insert into account values ('103','BKID24004', 'Current', '12')
+insert into account values ('104','BKID24005', 'Current', '8')
+insert into account values ('105','BKID24006', 'Current', '8000')
+insert into account values ('106','BKID24007', 'Current', '12')
+insert into account values ('107','BKID24008', 'Savings', '8')
+insert into account values ('108','BKID24009', 'Current', '12')
+insert into account values ('109','BKID24010', 'Savings', '12')
+
+Select * from account
+
+CREATE TABLE account (   
+User_Id int,   
+account_number Int(30),   
+account_type varchar(30),   
+interest_rate float(50), 
+Foreign Key User_Id References Nominee(User_Id)
+)
+
+insert into account values ('101','BKID24001', 'Savings', '12')
+insert into account values ('102','BKID24002', 'Current', '8')
+insert into account values ('201','BKID24003', 'Current', '10')
+insert into account values ('103','BKID24004', 'Current', '12')
+insert into account values ('104','BKID24005', 'Current', '8')
+insert into account values ('105','BKID24006', 'Current', '8000')
+insert into account values ('106','BKID24007', 'Current', '12')
+insert into account values ('107','BKID24008', 'Savings', '8')
+insert into account values ('108','BKID24009', 'Current', '12')
+insert into account values ('109','BKID24010', 'Savings', '12')
+
+Select * from account
